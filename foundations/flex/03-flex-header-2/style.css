@@ -7,11 +7,17 @@ body {
   background: #eee;
   font-family: Besley, serif;
 }
+/* .nav {
+  display: flex;
+  justify-content: space-around;
+} */
 
 .header {
   background: white;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dddccc;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
 }
 
 .profile-image {
@@ -28,13 +34,21 @@ body {
   font-weight: 900;
   font-style: italic;
 }
+.logo-container {
+  display: flex;
 
+}
+.notification_container {
+  display: flex;
+  align-items: center;
+}
 button {
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
+  margin-right: 10px;
 }
 
 a {
@@ -45,4 +59,7 @@ a {
 
 ul {
   list-style-type: none;
+}
+.nav-links {
+  display: flex;
 }
