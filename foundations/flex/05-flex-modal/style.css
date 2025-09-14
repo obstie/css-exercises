@@ -21,9 +21,11 @@ body {
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 25px;
-  
+    
 }
-
+.container {
+  display: flex;
+}
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -37,6 +39,7 @@ body {
   justify-content: center;
   padding: 10px;
   flex: 1 0 auto;
+
 }
 
 .close-button {
